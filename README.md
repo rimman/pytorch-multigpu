@@ -84,7 +84,10 @@ python3 verify-setup.py
 
 ### 2. Run Training
 
-There are 3 directories for training. The command below show how to run them. For the demo run the distributed data parallel training.
+There are 3 directories for training. The command below show how to run them.
+
+**For the demo run the distributed data parallel training.**
+**While the demo is running in another shell run `watch nvidia-smi` that shows the usage of the GPU.**
 
 - Single GPU training
 

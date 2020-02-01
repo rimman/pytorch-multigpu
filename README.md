@@ -30,7 +30,7 @@ Follow the instructions below to install CUDA runtime and required NVIDIA driver
 
 #### LCOW
 
-Current setup assumes that the LCOW container has two M80 GPUs and CUDA already installed.
+Current setup assumes that the LCOW container has two GPUs and CUDA already installed.
 
 ### 2. Install PyTorch and other utilities
 
@@ -39,7 +39,11 @@ Ensure that the CUDA setup is completed as described in the previous section. Ve
 Install Git, VIM, Python, PyTorch and other required packages with the following commands.
 
 ```bash
+# run the following two commands for LCOW only
+apt-get update
+apt-get install -y sudo
 
+# run the following commands for both Azure VM and LCOW
 sudo apt-get install -y git
 sudo apt-get install -y vim
 sudo apt-get -y install python3

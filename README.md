@@ -58,7 +58,7 @@ python3 -m pip install tensorboardX
 
 ```bash
 
-git clone https://github.com/vipul-modi/pytorch-multigpu.git
+git clone https://github.com/rimman/pytorch-multigpu.git
 cd pytorch-multigpu
 ```
 
